@@ -1,13 +1,10 @@
-
-
 def main():
-    n=int(input("enter staircase height"))
-    for i in range(n,0,-1):
-        print( '#' *i)
+    n = int(input("enter staircase height: "))
+    for i in range(1, n + 1):
+        print(' ' * (n - i) + '#' * i)
 
 if __name__ == "__main__":
     main()
-    
     
     
     
