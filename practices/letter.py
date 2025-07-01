@@ -15,16 +15,10 @@ def solve(s):
     return max_len
 
 def main():
-    # Test with the example
-    test_string = "abaacdabd"
-    result = solve(test_string)
-    print(f"Input: '{test_string}'")
+    user_string = input("Enter a string: ")
+    result = solve(user_string)
+    print(f"Input: '{user_string}'")
     print(f"Output: {result}")
-    
-    # Test with more examples
-    test_cases = ["beabeefeab", "aab", "aaa", "ab"]
-    for test in test_cases:
-        print(f"Input: '{test}' -> Output: {solve(test)}")
 
 if __name__ == "__main__":
     main()
