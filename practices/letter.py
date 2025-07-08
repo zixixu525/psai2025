@@ -24,3 +24,18 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+#pair ={}
+#expected = None
+#best_len=0
+#for ch in S:
+#    
+#.   if ch not in pair:
+#         continue
+#    if ch!=expected:
+#.         continue
+#    expected=p if expected j if not
+#.best len+=1
+#    
+#
